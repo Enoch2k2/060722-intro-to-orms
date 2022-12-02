@@ -16,11 +16,11 @@ class Pet
   end
 
   def self.delete(idx)
-   self.all.deleta_at(idx)
+   self.all.delete_at(idx)
   end
 
   def self.search_by_name(term)
-    self.all.find do |pet|
+    self.all.select do |pet|
       pet.name.downcase.include?(term.downcase)
     end
   end

@@ -15,11 +15,11 @@ require 'pry'
 require_relative "../lib/cli"
 require_relative "../lib/pet"
 
-# Pet.create("Bobo")
-# Pet.create("Bob")
-# Pet.create("Leah")
-# Pet.create("Sarah")
-# Pet.create("Jojo")
-# Pet.create("Butch")
-# Pet.create("Bubbles")
-# Pet.create("Garfield")
+Pet.create("Bobo")
+Pet.create("Bob")
+Pet.create("Leah")
+Pet.create("Sarah")
+Pet.create("Jojo")
+Pet.create("Butch")
+Pet.create("Bubbles")
+Pet.create("Garfield")
