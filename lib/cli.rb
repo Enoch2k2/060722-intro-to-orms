@@ -103,7 +103,7 @@ class Cli
     index = input.to_i - 1
     pet = Pet.all[index]
     if pet
-      Pet.delete(index)
+      Pet.delete(pet.id)
       puts "Deleting Pet..."
       sleep(1)
       puts "Pet deleted..."
